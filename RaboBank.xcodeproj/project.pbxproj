@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		7DB105892817C70C008533F1 /* RaboBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB105882817C70C008533F1 /* RaboBankApp.swift */; };
-		7DB1058B2817C70C008533F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB1058A2817C70C008533F1 /* ContentView.swift */; };
+		7DB1058B2817C70C008533F1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB1058A2817C70C008533F1 /* MainView.swift */; };
 		7DB1058D2817C70D008533F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB1058C2817C70D008533F1 /* Assets.xcassets */; };
 		7DB105902817C70D008533F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB1058F2817C70D008533F1 /* Preview Assets.xcassets */; };
+		7DB105982817D18E008533F1 /* issues.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7DB105972817D18E008533F1 /* issues.csv */; };
+		7DB1059B2817EFED008533F1 /* DataColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB1059A2817EFED008533F1 /* DataColumns.swift */; };
+		7DB1059E2817F03E008533F1 /* IssueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB1059D2817F03E008533F1 /* IssueCell.swift */; };
+		7DB105A02817F52D008533F1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB1059F2817F52D008533F1 /* User.swift */; };
+		7DB105A3281804F8008533F1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB105A2281804F8008533F1 /* ViewModel.swift */; };
+		7DB105A628180DFB008533F1 /* Double+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB105A528180DFB008533F1 /* Double+Format.swift */; };
+		7DB105A92819180C008533F1 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB105A82819180C008533F1 /* AppColors.swift */; };
+		7DB105AB28191CAE008533F1 /* Color+InBetween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB105AA28191CAE008533F1 /* Color+InBetween.swift */; };
+		7DB105AD2819238B008533F1 /* testData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7DB105AC2819238B008533F1 /* testData.csv */; };
+		7DB105B128195458008533F1 /* ScriptJS.md in Resources */ = {isa = PBXBuildFile; fileRef = 7DB105B028195458008533F1 /* ScriptJS.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7DB105852817C70C008533F1 /* RaboBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaboBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB105882817C70C008533F1 /* RaboBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaboBankApp.swift; sourceTree = "<group>"; };
-		7DB1058A2817C70C008533F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DB1058A2817C70C008533F1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7DB1058C2817C70D008533F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB1058F2817C70D008533F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DB105972817D18E008533F1 /* issues.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = issues.csv; sourceTree = "<group>"; };
+		7DB1059A2817EFED008533F1 /* DataColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataColumns.swift; sourceTree = "<group>"; };
+		7DB1059D2817F03E008533F1 /* IssueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueCell.swift; sourceTree = "<group>"; };
+		7DB1059F2817F52D008533F1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7DB105A2281804F8008533F1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7DB105A528180DFB008533F1 /* Double+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Format.swift"; sourceTree = "<group>"; };
+		7DB105A82819180C008533F1 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		7DB105AA28191CAE008533F1 /* Color+InBetween.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+InBetween.swift"; sourceTree = "<group>"; };
+		7DB105AC2819238B008533F1 /* testData.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = testData.csv; sourceTree = "<group>"; };
+		7DB105B028195458008533F1 /* ScriptJS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ScriptJS.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,13 @@
 		7DB105872817C70C008533F1 /* RaboBank */ = {
 			isa = PBXGroup;
 			children = (
+				7DB105A7281917F9008533F1 /* Styles */,
+				7DB105A428180DE7008533F1 /* Extensions */,
+				7DB105A1281804ED008533F1 /* ViewModel */,
+				7DB1059C2817F029008533F1 /* View */,
+				7DB105992817EFE0008533F1 /* Model */,
+				7DB105962817D183008533F1 /* Data */,
 				7DB105882817C70C008533F1 /* RaboBankApp.swift */,
-				7DB1058A2817C70C008533F1 /* ContentView.swift */,
 				7DB1058C2817C70D008533F1 /* Assets.xcassets */,
 				7DB1058E2817C70D008533F1 /* Preview Content */,
 			);
@@ -65,6 +90,59 @@
 				7DB1058F2817C70D008533F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DB105962817D183008533F1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7DB105972817D18E008533F1 /* issues.csv */,
+				7DB105AC2819238B008533F1 /* testData.csv */,
+				7DB105B028195458008533F1 /* ScriptJS.md */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7DB105992817EFE0008533F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DB1059A2817EFED008533F1 /* DataColumns.swift */,
+				7DB1059F2817F52D008533F1 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DB1059C2817F029008533F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DB1058A2817C70C008533F1 /* MainView.swift */,
+				7DB1059D2817F03E008533F1 /* IssueCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DB105A1281804ED008533F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7DB105A2281804F8008533F1 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7DB105A428180DE7008533F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DB105A528180DFB008533F1 /* Double+Format.swift */,
+				7DB105AA28191CAE008533F1 /* Color+InBetween.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7DB105A7281917F9008533F1 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				7DB105A82819180C008533F1 /* AppColors.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +203,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB105B128195458008533F1 /* ScriptJS.md in Resources */,
+				7DB105AD2819238B008533F1 /* testData.csv in Resources */,
+				7DB105982817D18E008533F1 /* issues.csv in Resources */,
 				7DB105902817C70D008533F1 /* Preview Assets.xcassets in Resources */,
 				7DB1058D2817C70D008533F1 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +218,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB1058B2817C70C008533F1 /* ContentView.swift in Sources */,
+				7DB1058B2817C70C008533F1 /* MainView.swift in Sources */,
+				7DB1059B2817EFED008533F1 /* DataColumns.swift in Sources */,
+				7DB105A628180DFB008533F1 /* Double+Format.swift in Sources */,
 				7DB105892817C70C008533F1 /* RaboBankApp.swift in Sources */,
+				7DB105A02817F52D008533F1 /* User.swift in Sources */,
+				7DB105A92819180C008533F1 /* AppColors.swift in Sources */,
+				7DB105AB28191CAE008533F1 /* Color+InBetween.swift in Sources */,
+				7DB105A3281804F8008533F1 /* ViewModel.swift in Sources */,
+				7DB1059E2817F03E008533F1 /* IssueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +395,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

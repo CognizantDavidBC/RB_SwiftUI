@@ -1,2 +1,2 @@
-# TestRaboBank
-RaboBank Assignment for Team Native
+# Test SwiftUI
+SwiftUI Assignment for Team Native

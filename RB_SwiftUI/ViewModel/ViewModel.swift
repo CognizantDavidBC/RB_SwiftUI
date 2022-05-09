@@ -3,8 +3,8 @@ import TabularData
 
 final class ViewModel: ObservableObject {
     private var csvOptions = CSVReadingOptions(hasHeaderRow: true, delimiter: ";")
-//    private let csvUrl = Bundle.main.url(forResource: "issues", withExtension: "csv")!
-    private let csvUrl = Bundle.main.url(forResource: "testData", withExtension: "csv")!
+    private let csvUrl = Bundle.main.url(forResource: "issues", withExtension: "csv")!
+//    private let csvUrl = Bundle.main.url(forResource: "testData", withExtension: "csv")!
     
     @Published var result: DataFrame
     

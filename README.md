@@ -1,11 +1,14 @@
 # SwiftUI Assignment
 
+![Screenshot simulator](https://user-images.githubusercontent.com/88148565/167357658-62fe0763-1f2d-44da-a89e-cd8e8ffff2e8.png)
+
 ## Architecture: **MVVM**
 - Model: `User`
 - View: `IssueCell` inside a `LazyVStack`
 - ViewModel: Shared using **Combine** (`EnvironmentObject`) 
 
 ## CSV Decode Method:
+
 - `DataFrame()` from the Apple Framework **TabularData**
 
 ## Tabular Data
